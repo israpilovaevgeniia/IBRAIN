@@ -1,0 +1,229 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 140px 20px 33px;
+    align-items: center;
+}
+
+
+.header__logo {
+    background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(157, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header__nav ul {
+    display: flex;
+    column-gap: 27px;
+
+}
+
+.header__nav-link {
+    color: rgb(94, 76, 179);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header__contacts {
+    display: flex;
+    column-gap: 10px;
+}
+
+.header__social-link {
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.header__phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__phone-number {
+    color: rgb(94, 76, 179);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header__work-time {
+    color: rgb(94, 76, 179);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.header__request-call-btn {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 800;
+    padding: 23px 33px;
+    border-radius: 5px;
+    background: rgb(157, 97, 255);
+    border: none;
+}
+
+#hero {
+    background-image: url(./images/bgimage.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.hero__div-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 67px 627px 0 140px;
+
+}
+
+.hero__div-info {
+    margin-bottom: 116px;
+}
+
+.hero__development-title {
+    background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(157, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin-bottom: 33px;
+}
+
+.hero__development-text {
+    background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(157, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.hero__div-know-ihfo {
+    margin-bottom: 190px;
+}
+
+.hero__know-price-btn {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(157, 97, 255);
+    padding: 22px 78px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.hero__submit-application {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 137.4%;
+    text-align: left;
+    background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(157, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    align-self: flex-end;
+}
+
+#create__online-store {
+    padding: 0 150px 140px 150px;
+    background: rgb(255, 255, 255);
+}
+
+.create__online-store-div-main {
+ 
+}
+
+.create__online-store-div-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px 20px;
+}
+
+.create__online-store-card {
+    max-width: calc(100% / 3); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 2px 38px 39px 15px;
+    
+}
+
+.create__online-store-title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    text-align: left;
+    background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(157, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 54px;
+}
+
+.create__online-store-number {
+    color: rgb(183, 152, 191);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+}
+
+.create__online-store-text1 {
+    color: rgb(68, 111, 179);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.create__online-store-emply {
+    border: 2px solid rgb(68, 111, 179);
+    width: 175px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+.create__online-store-text2 {
+    color: rgb(94, 76, 179);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.create__online-store-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.create__online-store-price-btn {
+    background-color: rgb(157, 97, 255);
+    border-radius: 5px;
+    padding: 22px 78px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    border: none;
+}
+
