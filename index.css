@@ -143,13 +143,13 @@
     align-self: flex-end;
 }
 
+.hero__div-vector {
+    padding: 94px 708px 94px 708px;
+}
+
 #create__online-store {
     padding: 0 150px 140px 150px;
     background: rgb(255, 255, 255);
-}
-
-.create__online-store-div-main {
- 
 }
 
 .create__online-store-div-wrapper {
@@ -218,6 +218,84 @@
 }
 
 .create__online-store-price-btn {
+    background-color: rgb(157, 97, 255);
+    border-radius: 5px;
+    padding: 22px 78px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    border: none;
+}
+
+.what__you-get {
+    padding: 0px 86px 0px 140px ;
+}
+
+.what__you-get-title {
+    font-size: 36px;
+    font-weight: 800;
+    background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(157, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 59px;
+}
+
+.what__you-get-main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.what__you-get-wrapper {
+    align-items: center;
+    display: flex;
+} 
+
+.item_img1 {
+    margin-right: 71px;
+}
+
+.what__you-get-info-title {
+    color: rgb(157, 97, 255);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.what__you-get-text {
+    color: rgb(94, 76, 179);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    position: relative;
+
+}
+
+.what__you-get-text:last-child {
+    margin-bottom: none;
+}
+
+.what__you-get-text::after {
+    content: "";
+    background-color:  rgb(94, 76, 179);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    left: -15px;
+    bottom: 2px;
+    position: absolute;
+}
+
+.what__you-get-div-btn {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what__you-get-btn {
     background-color: rgb(157, 97, 255);
     border-radius: 5px;
     padding: 22px 78px;
