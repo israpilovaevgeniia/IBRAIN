@@ -814,6 +814,47 @@
     text-decoration-line: underline;
 }
 
+.header__burger-btn {
+    background-color: rgb(180, 152, 207);
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: none;
+    z-index: 2;
+}
+
+.header__burger-btn-nav {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(31, 8, 53);
+    left: 5px;
+    transition: transform.3s, opacity.3s, background-color.3s ;
+}
+
+.header__burger-btn-nav:nth-child(1) {
+    transform: translateY(-10px);
+}
+
+.header__burger-btn-nav:nth-child(3) {
+    transform: translateY(10px);
+}
+
+.header.open .header__burger-btn-nav:nth-child(1) {
+    transform: translateX(0) rotate(-45deg);
+}
+
+
+.header.open .header__burger-btn-nav:nth-child(2) {
+    opacity: 0;
+}
+
+
+.header.open .header__burger-btn-nav:nth-child(3) {
+    transform: translateX(0) rotate(45deg);
+}
+
 
 
 
