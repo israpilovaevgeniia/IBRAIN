@@ -1,3 +1,53 @@
+@media (max-width: 1200px) {
+    .certificates__wrapper {
+        max-width: 970px;  
+    }
+
+    .certificates__card {
+        display: none;
+    }
+
+    .certificates__conteiner {
+        display: flex;
+        justify-content: space-around;
+        padding: 27px 0 19px 14px;
+    }
+
+    .stages__link{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .stages__items-img {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .stages__desc-title {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .connect__form {
+        max-width: 100%;
+    }
+
+    .connect__desc-title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+
+    .connect__wrapper-desc {
+        padding: 25px 5px 50px 5px;
+    }
+
+    .connect__form {
+        padding: 25px 15px 50px 15px; 
+    }
+}
+
 @media (max-width: 900px) {
     .header__burger-btn {
         display: block;
@@ -28,5 +78,321 @@
 
     .header.open .header__nav {
         transform: translateX(100%);
+    }
+
+    #hero {
+        background-position: top;
+        background-size: 50%;
+    }
+
+    .hero__div-main {
+        padding: 50px 450px 0 50px;
+    }
+
+    .hero__div-info {
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: max-content;
+
+    }
+
+    .hero__development-title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .hero__development-text {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .hero__div-know-ihfo {
+        margin-bottom: 0;
+    }
+
+    .hero__div-vector {
+        padding: 50px 0px 50px 200px;
+    }
+
+    .create__online-store-title {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    #create__online-store {
+        padding: 0 50px 50px 40px;
+    }
+
+    .create__online-store-number {
+        font-size: 55px;
+        font-weight: 600;
+    }
+
+    .create__online-store-emply {
+        width: 150px;
+        border: 1px solid rgb(68, 111, 179);
+    }
+
+    .what__you-get-img {
+        max-width: 100%;
+    }
+
+    .what__you-get-text {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .what__you-get-text::after {
+        content: "";
+        background-color:  rgb(94, 76, 179);
+        border-radius: 50%;
+        width: 7px;
+        height: 7px;
+        left: -10px;
+        bottom: 2px;
+        position: absolute;
+    }
+
+    .certificates {
+        padding: 60px 50px;
+    }
+
+    .explore {
+        padding: 50px 50px 50px 50px;
+    }
+    
+    .explore__title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .explore__card-img {
+        align-self: center;
+    }
+
+    .explore__img {
+        max-width: 100%;
+    }
+    
+    .stages {
+        padding: 0 20px 50px 20px;
+    }
+
+    .stages__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .stages__wrapper {
+        padding: 34px 20px 50px 20px;
+
+    }
+
+    .connect {
+        padding: 50px 50px 50px 50px;
+    }
+
+    .connect__form-number {
+        margin-bottom: 18px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .connect__form-text::placeholder,
+    .connect__form-tel::placeholder {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .connect__container-circle,
+    .connect__container-cube,
+    .connect__container-platonic, 
+    .connect__container-hand {
+        max-width: 100%;
+    }
+
+    .footer {
+        padding: 40px 50px 58px 50px;
+    }
+}
+
+@media (max-width: 750px) {
+    #header {
+        padding: 35px 50px 20px 33px;
+    }
+
+    .header__logo {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .header__phone-number {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .header__request-call-btn {
+        font-size: 9px;
+        font-weight: 600;
+        padding: 13px 23px;
+    }
+
+    .hero__know-price-btn {
+        font-size: 9px;
+        font-weight: 600;
+        padding: 12px 68px;
+    }
+
+    .create__online-store-number {
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    .create__online-store-text1 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .create__online-store-text2 {
+        font-size: 9px;
+        font-weight: 300;
+    }
+
+
+    .what__you-get {
+        padding: 0px 50px 0px 50px ;
+    }
+
+    .what__you-get-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .what__you-get-text {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+
+    .certificates {
+        padding: 0px 50px;
+    }
+
+    .certificates__block {
+        gap: 0 30px;
+    }
+
+    .explore__title {
+        margin-bottom: 36px;
+    }
+
+    .explore__text {
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 12px;
+        margin-bottom: 15px; 
+    }
+
+    .stages__navigation::before {
+        width: 3px;
+        left: 20px;
+    }
+
+    .stages__navigation-link {
+        margin-bottom: 20px;
+    }
+
+    .stages__link {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 10px;
+        margin-left: 35px;
+    }
+
+    .stages__link::before {
+        width: 15px;
+        height: 15px;
+        left: -21px;
+    }
+
+    .stages__items-img {
+        margin-right: 5px;
+    }
+
+    .stages__desc-text {
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 18px;
+    }
+
+    .connect__container {
+        padding: 15px 40px 150px 40px;
+    }
+
+    .connect__desc-info{
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .connect__container-hand {
+        bottom: 2px;
+    }
+
+    .connect__container-circle {
+        left: 450px;
+        bottom: 115px;
+    }
+
+    .connect__container-platonic {
+        left: 218px;
+        top: -75px;
+    }
+
+    .connect__form-text {
+        margin-bottom: 2px;
+        margin-top: 10px;
+    }
+
+    .connect__form-tel {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .connect__btn {
+        padding: 12px 57px;
+        width: none;
+        height: 40px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+
+    .connect__form-checkbox-text {
+        font-size: 16px;
+        font-weight: 200px;
+    }
+
+    .footer__info-decs-one-text {
+        font-size:28px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .footer__info-decs-one-link {
+        font-size: 44px;
+        font-weight: 600;
+    }
+
+    .footer__btn {
+        padding: 18px 68px;
     }
 }
